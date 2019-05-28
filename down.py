@@ -29,7 +29,7 @@ async def main(url):
 
 
 urls=[]
-l=['url1','url2','url3','url n']
+l=['url1','url2','url3','url n']      #Insert the names of projects here
 for na in l:
     urls.append(f'https://sourceforge.net/projects/{na}/files/stats/timeline?dates=1999-02-18+to+2019-05-19')
 loop = asyncio.get_event_loop()
